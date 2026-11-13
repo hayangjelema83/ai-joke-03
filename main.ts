@@ -14,7 +14,7 @@ import { join } from 'node:path';
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 /** Which joke to write: 0, 1, or 2. */
-const JOKE_INDEX = 1;
+const JOKE_INDEX = 0;
 
 const JOKES = [
   // The apology loop, reversed: the agent says sorry so often the human apologises pre-emptively.
